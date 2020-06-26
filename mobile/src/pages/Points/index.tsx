@@ -2,8 +2,8 @@ import React from 'react';
 import  Constants from 'expo-constants'; 
 import { Feather as Icon } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
-import { View, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
-import MapView from 'react-native-maps';
+import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Image } from 'react-native';
+import MapView, {Marker} from 'react-native-maps';
 import { SvgUri } from 'react-native-svg'
 
 const Points = () => { 
@@ -12,7 +12,10 @@ const Points = () => {
         navigation.goBack();
 
     }
-    return (
+    function handleNavigateToDetail ( ) {
+      navigation.navigate('Detail');
+    } 
+     return (
         <>
         <View style={styles.container}>
         <TouchableOpacity onPress={handleNavigateBack}>
@@ -23,7 +26,29 @@ const Points = () => {
         <Text style={styles.description}>Encontre no mapa um ponto de coleta.</Text>
 
         <View style={styles.mapContainer}>
-            <MapView style={styles.map} />
+            <MapView 
+            style={styles.map}
+            initialRegion={{
+              latitude: -20.3320899,
+              longitude: -41.1300688,
+              latitudeDelta: 0.010,
+              longitudeDelta: 0.010,
+            }} 
+            >
+            <Marker
+            style={styles.mapMarker}
+            onPress={handleNavigateToDetail}
+            coordinate= {{
+                latitude: -20.3320899,
+                longitude: -41.1300688,
+             }}
+             >
+               <View style={styles.mapMarkerContainer}>
+               <Image style= {styles.mapMarkerImage} source={{ uri: 'https://images.unsplash.com/photo-1556767576-5ec41e3239ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80'}}/>
+               <Text style={styles.mapMarkerTitle}>PAGOTO</Text>
+               </View>
+             </Marker>
+            </MapView>
         </View>
     </View>
     <View style={styles.itemsContainer}>
