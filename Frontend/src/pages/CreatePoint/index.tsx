@@ -67,7 +67,7 @@ const CreatePoint = () => {
 
      }, [ ]);
 
-     useEffect(() => {
+     useEffect(() => { 
         if (selectedUf === '0') {
             return;
         }
@@ -217,7 +217,7 @@ const CreatePoint = () => {
                                 ))}
                             </select>
                         </div>
-                        <div className="field-group">
+                
                         <div className="field">
                             <label htmlFor="city">Cidade</label>
                             <select 
@@ -231,7 +231,7 @@ const CreatePoint = () => {
                                     <option key={city} value={city}>{city}</option>
                                 ))}                           
                             </select>
-                        </div>
+                       
                     </div>
                     </div> 
                 </fieldset>
