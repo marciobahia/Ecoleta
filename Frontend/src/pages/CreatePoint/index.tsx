@@ -34,13 +34,13 @@ const CreatePoint = () => {
 
     const [selectedCity, setSelectedCity] = useState('0');
     const [selectedUf, setSelectedUf] = useState('0');
-    const [selectedItems, setSelectedItems]=useState<number[]>([]);
+    const [selectedItems, setSelectedItems] = useState<number[]>([]);
     const [selectedPosition, setSelectedPosition] = useState<[number,number]>([0,0]);
     const [formData, setFormData] = useState({
         name: '',
         email: '',
         whatsapp:'',
-    })
+    });
 
     const history = useHistory();
 
@@ -105,7 +105,7 @@ const CreatePoint = () => {
        function handleInputChange(event: ChangeEvent<HTMLInputElement>) {
         const { name, value} = event.target;
 
-        setFormData({ ...formData, [name]:value})
+        setFormData({ ...formData, [name]:value});
        }
 
        function handleSelectItem(id: number) {
@@ -152,7 +152,8 @@ const CreatePoint = () => {
                 </Link>
             </header>
             
-            <form onSubmit={handleSubmit}>                <h1>Cadastro do <br/> ponto de coleta</h1>
+            <form onSubmit={handleSubmit}>
+                <h1>Cadastro do <br/> ponto de coleta</h1>
 
                 <fieldset>
                     <legend>
@@ -173,7 +174,7 @@ const CreatePoint = () => {
                     <div className="field-group">
                         <div className="field"> Email
                             <input type="email"
-                                   name="name"
+                                   name="email"
                                    id="email"
                                    onChange={handleInputChange}
                             />
@@ -194,7 +195,7 @@ const CreatePoint = () => {
                         <span>Selecione o endereço no mapa </span>
                     </legend>
 
-                       <Map center={[ -20.3320899,-41.1300688 ]} zoom={15}onclick={handleMapClick}>
+                       <Map center={initialPosition} zoom={15}onclick={handleMapClick}>
                            <TileLayer 
                            attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
