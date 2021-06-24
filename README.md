@@ -18,7 +18,7 @@ Ecoleta is an Application that aims to connect companies that collect waste ther
 ![Let Me Ask preview]
 
 
-<img src="https://github.com/marciobahia/Aircnc/blob/master/AirCncLogo.jpeg" >
+<img src="https://github.com/marciobahia/Ecoleta/blob/master/Ecoleta.png" >
 
 
 ## Tecnologies
