@@ -52,6 +52,7 @@ $ git clone https://github.com/marciobahia/aircnc.git && cd aircnc
 # Install the dependencies
 $ yarn
 
+**Follow the steps below**
 **Backend**
 
     @expo-google-fonts/roboto": "^0.1.0",
