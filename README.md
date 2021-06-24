@@ -54,8 +54,7 @@ $ git clone https://github.com/marciobahia/aircnc.git && cd aircnc
 $ npm install <package>@<version> 
 
 
-**Dependencies on Backend**
-
+    **Dependencies on Backend**
     @expo-google-fonts/roboto": "^0.1.0
     @expo-google-fonts/ubuntu": "^0.1.0
     cors": "^2.8.5,
@@ -78,9 +77,7 @@ $ npm install <package>@<version>
     typescript": "^3.9.3
     
   
-**Dependencies on Frontend**
-
-    
+    **Dependencies on Frontend** 
     @testing-library/jest-dom": "^4.2.4
     @testing-library/react": "^9.3.2
     @testing-library/user-event": "^7.1.2
@@ -99,7 +96,6 @@ $ npm install <package>@<version>
     
     
     **Dependencies on Mobile**
-    
     @expo-google-fonts/roboto": "^0.1.0
     @expo-google-fonts/ubuntu": "^0.1.0
     @react-native-community/masked-view": "0.1.6
@@ -122,7 +118,7 @@ $ npm install <package>@<version>
     react-native-svg": "11.0.1
     react-native-web": "^0.11.7
   
-  devDependencies:
+    devDependencies:
     @babel/core": "^7.8.6
     @types/react": "^16.9.11
     @types/react-native": "^0.60.22
