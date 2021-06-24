@@ -68,7 +68,7 @@ $ yarn
     pg": "^8.2.1
     sqlite3": "^4.2.0
     
-    *devDependencies* 
+    devDependencies:
     @types/cors": "^2.8.6
     @types/express": "^4.17.6
     @types/multer": "^1.4.3
@@ -77,7 +77,7 @@ $ yarn
     typescript": "^3.9.3
     
   
- ## AirCnC #
+**Frontend**
 
     
     @testing-library/jest-dom": "^4.2.4
