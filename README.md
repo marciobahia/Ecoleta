@@ -74,6 +74,25 @@ $ yarn
     ts-node": "^8.10.2
     ts-node-dev": "^1.0.0-pre.44
     typescript": "^3.9.3
+    
+    **Frontend**
+    
+    @testing-library/jest-dom": "^4.2.4
+    @testing-library/react": "^9.3.2
+    @testing-library/user-event": "^7.1.2
+    @types/jest": "^24.0.0
+    @types/node": "^12.0.0
+    axios": "^0.19.2
+    leaflet": "^1.6.0
+    react": "^16.13.1
+    react-dom": "^16.13.1
+    react-dropzone": "^11.0.2
+    react-icons": "^3.10.0
+    react-leaflet": "^2.7.0
+    react-router-dom": "^5.2.0
+    react-scripts": "3.4.1
+    typescript": "~3.7.2
+    
 
 
 
