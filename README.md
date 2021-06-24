@@ -50,8 +50,8 @@ $ git clone https://github.com/marciobahia/aircnc.git && cd aircnc
 
 ```bash
 
-**Install the dependencies**
-$ npm install <package>@<version> 
+    **Install the dependencies**
+    $ npm install <package>@<version> 
 
 
     **Dependencies on Backend**
@@ -128,8 +128,8 @@ $ npm install <package>@<version>
 
 
 
-# Run the web server
-$ yarn start
+    # Run the web server
+    $ yarn start
 ```
 
 Open the App Expo on your smartphone, scan the application's QR Code.
