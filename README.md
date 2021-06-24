@@ -54,6 +54,27 @@ $ yarn
 
 **Backend**
 
+    @expo-google-fonts/roboto": "^0.1.0",
+    @expo-google-fonts/ubuntu": "^0.1.0
+    cors": "^2.8.5,
+    expo-font": "^8.2.2
+    express": "^4.17.1
+    knex": "^0.21.1
+    mssql": "^6.2.0
+    multer": "^1.4.2
+    mysql": "^2.18.1
+    mysql2": "^2.1.0
+    pg": "^8.2.1
+    sqlite3": "^4.2.0
+    
+    *devDependencies* 
+    @types/cors": "^2.8.6
+    @types/express": "^4.17.6
+    @types/multer": "^1.4.3
+    ts-node": "^8.10.2
+    ts-node-dev": "^1.0.0-pre.44
+    typescript": "^3.9.3
+
 
 
 # Run the web server
