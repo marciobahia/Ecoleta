@@ -2,7 +2,7 @@
 Application that aims to connect companies that collect waste there are people who aim to dispose of this waste correctly.
 
 <div align="center">
-  <img src="https://github.com/marciobahia/Aircnc/blob/master/logo%403x.png" width="200" >
+  <img src="https://github.com/marciobahia/Ecoleta/blob/master/logo.svg" width="300" >
 </div>
 
 ## AirCnC #
