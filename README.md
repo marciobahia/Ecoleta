@@ -55,7 +55,7 @@ $ yarn
 
 **Backend**
 
-    @expo-google-fonts/roboto": "^0.1.0",
+    @expo-google-fonts/roboto": "^0.1.0"
     @expo-google-fonts/ubuntu": "^0.1.0
     cors": "^2.8.5,
     expo-font": "^8.2.2
