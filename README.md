@@ -75,6 +75,7 @@ $ yarn
     ts-node-dev": "^1.0.0-pre.44
     typescript": "^3.9.3
     
+    - [React Native]
     ## Frontend
     
     @testing-library/jest-dom": "^4.2.4
